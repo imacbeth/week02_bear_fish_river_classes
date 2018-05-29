@@ -13,5 +13,9 @@ class BearTest < MiniTest::Test
     @bear1 = Bear.new("Yogi", "Grizzly")
   end
 
+  def test_bear_has_name
+    assert_equal("Yogi", @bear1.name)
+  end
+
 
 end
