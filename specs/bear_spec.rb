@@ -18,4 +18,16 @@ class BearTest < MiniTest::Test
   end
 
 
+
+  def test_bear_food_count
+    assert_equal(0, @bear1.food_count)
+  end
+
+  # def test_bear_can_get_fish
+  #   @bear1.get_fish(@fish1)
+  #   assert_equal(1, )
+  #
+  # end
+
+
 end
