@@ -11,4 +11,8 @@ class Bear
     return @stomach.length()
   end
 
+  def get_fish(fish)
+    @stomach.push(fish)
+  end
+
 end
