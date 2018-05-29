@@ -15,4 +15,11 @@ class Bear
     @stomach.push(fish)
   end
 
+
+  def get_fish_from_river(river)
+    for fish in river.fish_count()
+     get_fish(fish)
+   end
+   river.remove_fish
+  end
 end
